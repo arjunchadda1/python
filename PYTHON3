@@ -1,0 +1,6 @@
+def print_positive_numbers(lst):
+    positive_nums = []
+    for num in lst:
+        if num > 0:
+            positive_nums.append(num)
+    print(positive_nums)
